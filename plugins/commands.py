@@ -33,7 +33,7 @@ async def start(client, message):
     await message.reply_text(
         text=START_MSG.format(message.from_user.mention),
         disable_web_page_preview=True,
-        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton(text="OWNER",url = "t.me/jack_of_tg")]]),
+        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton(text="⚡JOIN NOW⚡",url = "t.me/Z_Bots")]]),
         reply_to_message_id=message.message_id,
         parse_mode="combined"
     )    
